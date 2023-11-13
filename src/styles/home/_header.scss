@@ -1,0 +1,192 @@
+.header {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    background-color: $bg-silver-color;
+    margin-top: 80px;
+
+    .header_top {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+
+        .header_top_left {
+            width: 57.5%;
+            height: auto;
+            background-color: $bg-silver-color;
+
+            .header_top_left_title {
+                font-size: 63px;
+                height: 250px;
+                font-weight: 700;
+                line-height: 83px;
+                letter-spacing: 0.7px;
+                text-align: left;
+                margin-left: 2px;
+                margin-top: 12px;
+            }
+
+            .header_top_left_desc {
+                color: $text-color;
+                width: 704px;
+                font-size: 18px;
+                margin-top: 28px;
+                line-height: 27px;
+                height: auto;
+                margin-left: 1px;
+            }
+
+            .header_top_left_btn {
+                width: 175px;
+                height: 60px;
+                border-radius: 74px;
+                border: none;
+                color: white;
+                font-weight: 600;
+                background-color: $bg-btn-color;
+                font-size: 16px;
+                margin-top: 25px;
+            }
+        }
+
+        .header_top_right {
+            width: 42.5%;
+            height: auto;
+            background-color: $bg-silver-color;
+
+            .header_top_right_img {
+                width: 989px;
+                height: 558px;
+                margin-top: -30px;
+                margin-left: -185px;
+            }
+        }
+    }
+
+    .header_bottom {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-top: 75px;
+
+        .header_bottom_info {
+            position: relative;
+            width: 737.88px;
+            height: 420px;
+            background-color: $bg-header-one-color;
+            border-radius: 40px;
+
+            .header_bottom_info_title {
+                width: 283px;
+                height: 126px;
+                margin: 44px 0 0 58px;
+                line-height: 41.6px;
+                font-size: 32px;
+                font-weight: 700;
+            }
+
+            .header_bottom_info_desc {
+                font-size: 18px;
+                font-weight: 400;
+                width: 554px;
+                height: 120px;
+                line-height: 27px;
+                margin: 6.5px 0 0 63px;
+            }
+
+            .header_bottom_info_go {
+                display: flex;
+                align-items: center;
+                margin-left: 58px;
+                margin-top: 33px;
+
+                .header_bottom_info_go_arrow {
+                    width: 44px;
+                    height: 44px;
+                    border-radius: 50%;
+                    background-color: $bg-btn-color;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 20px;
+                    color: white;
+                    margin-right: 10px;
+                }
+
+                .header_bottom_info_go_title {
+                    font-size: 15px;
+                    font-weight: 400;
+                    margin: 3px 0 0 0;
+                    letter-spacing: -0.5px;
+                }
+
+            }
+
+            .header_bottom_info_img {
+                position: absolute;
+                right: -20px;
+                top: 10px;
+            }
+        }
+
+        .header_bottom_info_ultrasound {
+            position: relative;
+            width: 737.88px;
+            height: 419px;
+            background-color: $bg-header-two-color;
+            border-radius: 40px;
+
+            .header_bottom_info_ultrasound_title {
+                width: 483px;
+                margin: 44px 0 0 48px;
+                line-height: 41.6px;
+                font-size: 32px;
+                font-weight: 700;
+            }
+
+            .header_bottom_info_ultrasound_desc {
+                font-size: 18px;
+                font-weight: 400;
+                width: 504px;
+                line-height: 27px;
+                margin: 8px 0 0 52px;
+            }
+
+            .header_bottom_info_ultrasound_go {
+                display: flex;
+                align-items: center;
+                margin-left: 48px;
+                margin-top: 86px;
+
+                .header_bottom_info_ultrasound_go_arrow {
+                    width: 44px;
+                    height: 44px;
+                    border-radius: 50%;
+                    background-color: $bg-btn-color;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 20px;
+                    color: white;
+                    margin-right: 10px;
+                }
+
+                .header_bottom_info_ultrasound_go_title {
+                    font-size: 15px;
+                    font-weight: 400;
+                    margin: 3px 0 0 0;
+                    letter-spacing: -0.5px;
+                }
+
+            }
+
+            .header_bottom_info_ultrasound_img {
+                position: absolute;
+                right: 35px;
+                top: 45px;
+            }
+        }
+    }
+}
