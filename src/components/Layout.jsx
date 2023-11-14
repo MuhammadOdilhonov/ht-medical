@@ -1,19 +1,19 @@
 // components/Layout.jsx
 
 import React from 'react';
-import Navbar from './Navbar';
-import Footer from './Footer';
+import Navbar from './navbar/Navbar';
+import Footer from './footer/Footer';
 
 const Layout = ({ children }) => {
   return (
     <div>
-      {/* <Navbar /> */}
+      <Navbar />
       <div className="container">
 
         <main>{children}</main>
 
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };

@@ -2,7 +2,7 @@
     width: 100%;
     height: auto;
     box-sizing: border-box;
-    background-color: $bg-silver-color;
+    background-color: $color-white;
     margin-top: 80px;
 
     .header_top {
@@ -15,7 +15,7 @@
         .header_top_left {
             width: 57.5%;
             height: auto;
-            background-color: $bg-silver-color;
+            background-color: $color-white;
 
             .header_top_left_title {
                 font-size: 63px;
@@ -24,18 +24,18 @@
                 line-height: 83px;
                 letter-spacing: 0.7px;
                 text-align: left;
-                margin-left: 2px;
-                margin-top: 12px;
+                margin-left: 8px;
+                margin-top: 2px;
             }
 
             .header_top_left_desc {
                 color: $text-color;
                 width: 704px;
                 font-size: 18px;
-                margin-top: 28px;
+                margin-top: 30px;
                 line-height: 27px;
                 height: auto;
-                margin-left: 1px;
+                margin-left: 8px;
             }
 
             .header_top_left_btn {
@@ -43,18 +43,19 @@
                 height: 60px;
                 border-radius: 74px;
                 border: none;
-                color: white;
+                color: $color-white;
                 font-weight: 600;
                 background-color: $bg-btn-color;
                 font-size: 16px;
-                margin-top: 25px;
+                margin-top: 28px;
+                margin-left: 8px;
             }
         }
 
         .header_top_right {
             width: 42.5%;
             height: auto;
-            background-color: $bg-silver-color;
+            background-color: $color-white;
 
             .header_top_right_img {
                 width: 989px;
@@ -77,6 +78,8 @@
             height: 420px;
             background-color: $bg-header-one-color;
             border-radius: 40px;
+            margin-left: 6px;
+            margin-top: -2px;
 
             .header_bottom_info_title {
                 width: 283px;
@@ -137,6 +140,8 @@
             height: 419px;
             background-color: $bg-header-two-color;
             border-radius: 40px;
+            margin-right: 6px;
+                margin-top: -5px;
 
             .header_bottom_info_ultrasound_title {
                 width: 483px;

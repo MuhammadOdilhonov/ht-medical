@@ -1,0 +1,13 @@
+@import "./footerLeft";
+@import "./footerRight";
+
+.footer {
+  width: 100%;
+  height: 620px;
+  background-color: $bg-btn-color;
+  padding: 77px 0 50px 0;
+}
+.Footer {
+  display: flex;
+  justify-content: space-between;
+}

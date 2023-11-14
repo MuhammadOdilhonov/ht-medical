@@ -6,6 +6,7 @@
     flex-wrap: wrap;
     width: 100%;
     margin-top: 80px;
+    margin-left: 8px;
 
     .categories_movement {
         width: 100%;
@@ -25,7 +26,7 @@
             width: 62px;
             display: flex;
             justify-content: space-between;
-            margin-right: 10px;
+            margin-right: 25px;
             margin-top: 16px;
 
             .categories_rightleft_left,
@@ -42,7 +43,7 @@
         display: flex;
         align-items: center;
         margin: 30px 0 0 0;
-        padding: 5px 15px 0 3px;
+        padding: 5px 30px 0 3px;
         justify-content: space-between;
 
         .categories_card {

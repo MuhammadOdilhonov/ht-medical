@@ -18,7 +18,7 @@
                 line-height: 62px;
                 letter-spacing: 0em;
                 text-align: left;
-                margin: 0px 0px 0px -2px;
+                margin: -2px 0px 0px 3px;
             }
         }
 
@@ -27,12 +27,14 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            box-sizing: border-box;
+            padding-right: 5px;
 
             .work-with-us_text-and-line_right-line_line {
                 width: 98.5%;
                 height: 3px;
                 background-color: $bg-btn-color;
-                margin-top: 7px;
+                margin-top: 6px;
                 margin-left: 5px;
             }
         }
@@ -42,9 +44,11 @@
         width: 100%;
         height: auto;
         display: flex;
+        box-sizing: border-box;
         justify-content: space-between;
         align-items: center;
         margin-top: 140px;
+        padding: 0px 10px;
 
         .work-with-us_row_card {
             width: 341px;
