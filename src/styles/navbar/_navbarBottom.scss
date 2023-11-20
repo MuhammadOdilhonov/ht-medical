@@ -13,7 +13,8 @@
       .navbarBottom-category-section-btn {
         width: 137px;
         height: 52px;
-        background-color: $bg-btn-color;
+        background: linear-gradient(90deg, #0056AE 0%, #2AA1E4 100%);
+        border: none;
         color: $color-white;
         border-radius: 108px;
         font-size: 16px;
@@ -21,16 +22,20 @@
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+        margin-right: 20px;
         .navbarBottom-category-section-btn-text{
-          margin-right: 10px;
+          // margin-right: 10px;
         }
+      }
+      .burger-ico{
+        // margin-left: 10px;
       }
     }
     .navbarBottom-search-section {
       display: flex;
       position: relative;
       .navbarBottom-search-section-inpSearch {
-        width: 1362px;
+        width: 1042px;
         height: 52px;
         border-radius: 52px;
         border: 1px solid $border-silver-color;

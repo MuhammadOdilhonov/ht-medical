@@ -8,11 +8,11 @@ import React from 'react'
 export default function HomePage() {
   return (
     <div>
-      <Header />
-      <Categories/>
-      <OurService />
-      <WorkWithUs />
-      <SchemeOfWork />
+        <Header />
+        <Categories/>
+        <OurService />
+        <WorkWithUs />
+        <SchemeOfWork />
     </div>
   )
 }
